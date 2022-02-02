@@ -1,8 +1,20 @@
+:root {
+  --black: #3B434E;
+  --white: white;
+  --primery: #7653FC;
+  --red: #FC836D;
+  --green: #1DC37E;
+  --green-light: #C8F8E4;
+  --font-family: 'Noto Sans', sans-serif;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-    font-family: 'Noto Sans', sans-serif;
+  background: #F5F6F8;
+  color: var(--black);
+  font-family: var(--font-family);
 }
 
 a {
