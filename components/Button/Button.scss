@@ -11,10 +11,10 @@
 
   &_primary {
     color: var(--white);
-    background: var(--primery);
+    background: var(--primary);
 
     &:hover {
-      background: var(--primery-hover);
+      background: var(--primary-hover);
     }
 
     & svg {
@@ -28,7 +28,7 @@
     border: 1px solid var(--gray-light);
 
     &:hover {
-      background: var(--primery);
+      background: var(--primary);
       color: var(--white);
 
       & svg {
